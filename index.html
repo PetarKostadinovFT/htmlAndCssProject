@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>HTML and CSS project</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__logo">Logo</div>
+            <div class="nav__toggle">
+                <span class="nav__icon"></span>
+                <span class="nav__icon"></span>
+                <span class="nav__icon"></span>
+            </div>
+            <ul class="nav__menu">
+                <li class="nav__item"><a href="#Shome" class="nav__link">Home</a></li>
+                <li class="nav__item"></li><a href="#" class="nav__link">About</a></li>
+                <li class="nav__item"></li><a href="#" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"></li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="content__container">
+                <div class="content__block">
+                    <h2>Welcome to Our Website</h2>
+                    <p class="content__text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Ex dolorem cumque aliquam magnam explicabo? Earum sunt totam, 
+                       
+                    </p>
+                </div>
+                    <div class="content__block">
+                        <h2>Our Services</h2>
+                        <ul>
+                            <li class="content__list-item">Web Design</li>
+                            <li class="content__list-item">Graphic Design</li>
+                            <li class="content__list-item">Digital Marketing</li>
+                        </ul>
+                </div>
+                    <div class="content__block">
+                        <h2>Get Started</h2>
+                        <p class="content__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Ex dolorem cumque aliquam magnam explicabo? Earum sunt totam, 
+                            
+                        </p>
+                        <a href="#" class="content__link">Start Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="contact__heading">Contact Us</h2>
+            <form action="#" class="contact__form">
+                <div class="contact__input-box">
+                    <div class="contact__input-field">
+                        <input id="name" type="text" placeholder="Full Name" required class="contact__input" /> 
+                    </div>
+                    <div class="contact__input-field">
+                        <input id="email" type="text" placeholder="Email Adress" required class="contact__input" /> 
+                    </div>
+                </div>
+                <div class="contact__input-box">
+                    <div class="contact__input-field">
+                        <input id="number" type="number" placeholder="Mobile Number" required class="contact__input" /> 
+                    </div>
+                    <div class="contact__input-field">
+                        <input id="subject" type="text" placeholder="Email Subject" required class="contact__input" /> 
+                    </div>
+                </div>
+                <div class="contact__textarea-field">
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" required class="contact__textarea"></textarea>
+                </div>
+                <div class="contact__btn-box btns">
+                    <button type="submit" class="btn contact__btn" id="submit__btn">Submit Email</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__column">
+                <h3 class="footer__title">About Us</h3>
+                <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aut hic tenetur cum id quibusdam facere accusantium quasi quis. Vitae inventore repudiandae
+                    molestias?
+                    Omnis labore nobis voluptates eligendi sunt iure ut.
+                </p>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__title">Contact</h3>
+                <p class="footer__text">Email: <a href="#" class="footer__text-email">petar.kostadinov@ft.com</a></p>
+                <p class="footer__text">Phone: +359988821444</p>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__title">Follow Us</h3>
+                <div class="footer__social-icons social-icons">
+                    <a href="#" class="footer__social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="footer__social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="footer__social-icon"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom footer-bottom">
+            <p class="footer-bottom__text">&copy; 2023 Financial Times | All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+<script src="scripts.js"></script>
+<script src="https://kit.fontawesome.com/deb9ca8d45.js" crossorigin="anonymous"></script>
+
+
+</html>
