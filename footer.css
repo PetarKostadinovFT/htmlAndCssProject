@@ -40,3 +40,31 @@
     text-align: center;
     padding-top: 20px;
 }
+
+.footer__icontop{
+    position: relative;
+}
+.footer__icontop a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background-color: #7ac7b8;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    text-decoration: none; 
+}
+
+.footer__icontop:hover a i{
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer__icontop a i{
+    font-size: 1.2rem;
+    color: #333;
+  transition: .5s;
+}
+
+

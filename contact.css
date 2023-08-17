@@ -2,11 +2,18 @@
     background-color: #f2dfce;
     min-height: 100vh;
     text-align: center;
-    padding: 60px 0;
+    padding: 60px 0; 
 }
 .contact__heading{
     font-size: 24px;
     margin-bottom: 30px;
+}
+
+.contact__form{
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .contact__input-box{
@@ -16,6 +23,8 @@
     margin-bottom: 20px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .contact__input-field{
@@ -26,23 +35,30 @@
 .contact__input{
     width: 100%;
     padding: 10px;
-    border: 1px solid #7ac7b8;
-    border-radius: 5px;
-    
+    border: 2px solid #666;
+    border-radius: 5px; 
+}
+
+.contact__input:focus,
+.contact__textarea:focus{
+    outline: none;
+    border: 3px solid #7ac7b8;
 }
 
 .contact__textarea-field{
     margin-bottom: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
+     
+
 
 .contact__textarea{
     width: 100%;
     padding: 10px;
-    border: 1px solid #7ac7b8;
+    border: 2px solid #666;
     border-radius: 5px;
-   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact__btn-box{
@@ -57,7 +73,6 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-
 }
 
 .contact__btn:hover{

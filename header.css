@@ -1,3 +1,9 @@
+header{
+    position:fixed;
+    width: 100%;
+    top:0;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -52,7 +58,6 @@
         background-color: #222;
         position: absolute;
         top: 60px;
-
         right: -75%;
         width: 100%;
         padding: 10px;
@@ -65,6 +70,5 @@
 
     .nav__menu.active {
         display: flex;
-
     }
 }
